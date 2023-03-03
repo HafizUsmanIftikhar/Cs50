@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<form action="/greet" method="post">
+<input autofocus autocomplete="off" name="name" type="text">
+<select name="sport">
+    <option disabled selected>sport</option>
+    <option >cricket</option>
+    <option >football</option>
+</select>
+<input type="submit">
+
+
+</form>
+{% endblock %}
