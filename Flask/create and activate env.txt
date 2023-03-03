@@ -1,0 +1,7 @@
+create a Python environment for Flask application and also activate it to use the application:
+
+$ python3 -m venv venv && source venv/bin/activate
+
+
+activate it to use the application:
+$ source venv/bin/activate
